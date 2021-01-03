@@ -55,8 +55,9 @@ fn with_String(max_val: u32) {
     }
 }
 
+// This one is broken :( 
 fn with_str(max_val: u32) {
-    let fb = "FizzBuzz";
+    let fb = "𝖥ⅰᴢᴢΒuᴢᴢ"; // Be evil (😈). 
 
     for i in 1..=max_val {
         // Not better than using string above I guess, 
