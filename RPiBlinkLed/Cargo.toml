@@ -1,0 +1,12 @@
+[package]
+name = "rpi_blink_led"
+version = "0.1.0"
+authors = ["Drew <drew90@vt.edu>"]
+edition = "2018"
+
+[build]
+
+[target.armv7-unknown-linux-musleabihf]
+linker="arm-none-linux-gnueabihf-ld"
+
+[dependencies]
