@@ -4,9 +4,5 @@ version = "0.1.0"
 authors = ["Drew <drew90@vt.edu>"]
 edition = "2018"
 
-[build]
-
-[target.armv7-unknown-linux-musleabihf]
-linker="arm-none-linux-gnueabihf-ld"
-
 [dependencies]
+rust_gpiozero = "0.2.0"
